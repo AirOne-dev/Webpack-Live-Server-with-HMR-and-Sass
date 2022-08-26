@@ -2,3 +2,5 @@
 /.idea
 .DS_Store
 package-lock.json
+/public/dist/css/*
+/public/dist/js/*

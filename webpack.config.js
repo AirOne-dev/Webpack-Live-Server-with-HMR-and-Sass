@@ -20,7 +20,7 @@ module.exports = {
     output: {
         publicPath: '/dist/',
         filename: 'js/[name].js',
-        path: path.resolve('./public/dist/js/'),
+        path: path.resolve('./public/dist/'),
         clean: true,
     },
     plugins: [
