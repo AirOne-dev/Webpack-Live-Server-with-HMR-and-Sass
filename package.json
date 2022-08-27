@@ -11,19 +11,11 @@
   "license": "ISC",
   "description": "This project is a template for all your small projects, it includes webpack with a live & hot server.",
   "dependencies": {
-    "autoprefixer": "^10.4.8",
-    "babel-cli": "^6.26.0",
-    "babel-loader": "^8.2.5",
-    "chokidar": "^3.5.3",
     "css-loader": "^6.7.1",
-    "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.6.1",
-    "postcss-loader": "^7.0.1",
     "sass": "^1.54.5",
     "sass-loader": "^13.0.2",
     "style-loader": "^3.3.1",
-    "webpack": "^5.74.0",
-    "webpack-bundle-tracker": "^1.6.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.10.0"
   }
