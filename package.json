@@ -1,16 +1,15 @@
 {
-  "name": "test-project",
+  "name": "webpack-live-server-with-hmr-and-sass",
   "version": "1.0.0",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --mode development",
+    "dev": "rm -rf ./public/dist/* && webpack-dev-server --mode development && npm run prod",
     "prod": "webpack --mode production"
   },
   "keywords": [],
-  "author": "",
+  "author": "Erwan Martin",
   "license": "ISC",
-  "description": "",
+  "description": "This project is a template for all your small projects, it includes webpack with a live & hot server.",
   "dependencies": {
     "autoprefixer": "^10.4.8",
     "babel-cli": "^6.26.0",
